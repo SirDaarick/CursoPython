@@ -36,7 +36,7 @@ print(not True) # NOT
 
 
 #Ejercicios
-"""
+
 age = 21
 height = 90.4
 complex = 2 + 3j
@@ -78,7 +78,7 @@ slope_comparation = slope > slope2
 print("Is slope bigger than slope2?", slope_comparation)
 
 y = (-3)**2 + 6*(-3) + 9
-"""
+
 word_1 = len("python")
 word_2 = len("Dragon")
 print(word_1 != word_2)
