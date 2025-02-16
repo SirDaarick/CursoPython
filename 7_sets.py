@@ -51,7 +51,4 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 print(len(it_companies))
 
-it_companies.add("Twitter")
-print(it_companies)
-it_companies = it_companies.union('Tesla').union('OpenAI')
-print(it_companies)
+
