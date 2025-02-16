@@ -138,3 +138,4 @@ average_age = (ages[0] + ages[1] + ages[2] + ages[3] + ages[4] + ages[5] + ages[
 range_age = [ages[0], ages[len(ages)-1]]
 
 print(median_age, average_age, range_age)
+
