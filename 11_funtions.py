@@ -148,3 +148,20 @@ def sum_of_numbers(num):
     return sum
 
 print(sum_of_numbers(100))
+
+def sum_of_odds(num):
+    for i in range((num+2)//2):
+        print(2*i)
+        
+def sum_of_evens(num):
+    for i in range((num+1)//2):
+        print(2*i + 1)
+sum_of_evens(100)
+
+def factorial(num):
+    if num == 0 or num == 1:
+        return 1
+    else: 
+        return  num * factorial(num-1)
+
+print(factorial(5))
